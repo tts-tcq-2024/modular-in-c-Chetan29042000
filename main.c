@@ -1,4 +1,4 @@
-#include "test.c"
+#include "color_pair_test.c"
 
 int main() {
     // Test cases for converting pair numbers to ColorPair
