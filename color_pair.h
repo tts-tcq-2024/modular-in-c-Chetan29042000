@@ -13,13 +13,9 @@ typedef struct {
     enum MinorColor minorColor;
 } ColorPair;
 
-// Converts a ColorPair to a string representation
+// Function prototypes
 void ColorPairToString(const ColorPair* colorPair, char* buffer);
-
-// Gets a ColorPair from a given pair number
 ColorPair GetColorFromPairNumber(int pairNumber);
-
-// Gets the pair number from a ColorPair
 int GetPairNumberFromColor(const ColorPair* colorPair);
 
-#endif // COLOR_PAIR_H
+#endif
