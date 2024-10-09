@@ -1,4 +1,4 @@
-#include "test_color.h"
+#include "color_pair_test.h"
 
 int main() {
     // Test the mapping of pair numbers to color pairs
